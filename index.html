@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preetifier</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="navBar">
+        <nav class="flex items-center justify-space-evenly flex-wrap bg-orange-200 p-6">
+            <div class="flex items-center flex-shrink-0 text-orange.900 mr-6">
+                <span class="font-semibold text-xl tracking-tight">Preetifier</span>
+            </div>
+            <div class="block lg:hidden">
+                <button
+                    class="flex items-center px-3 py-2 border rounded text-orange-900 border-orange-900 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <div class="text-sm lg:flex-grow">
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-orange-900 hover:text-white mr-4 ml-30">
+
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-orange-900 hover:text-white mr-4">
+
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-orange-900 hover:text-white">
+
+                    </a>
+                </div>
+                <div>
+                    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                        <div class="text-sm lg:flex-grow">
+                            <a href="#responsive-header"
+                                class="block mt-4 lg:inline-block lg:mt-0 text-orange-900 hover:text-white mr-12 ">
+                                Gallery
+                            </a>
+                            <a href="#responsive-header"
+                                class="block mt-4 lg:inline-block lg:mt-0 text-orange-900 hover:text-white mr-12">
+                                Who we are
+                            </a>
+                            <a href="#responsive-header"
+                                class="block mt-4 lg:inline-block lg:mt-0 text-orange-900 hover:text-white mr-12">
+                                Services
+                            </a>
+                        </div>
+                        <div class="btn">
+                            <a href="#name"
+                                class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                                a Service</a>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <section class="heroPage">
+        <h1>Let your <span>Hair</span> speak for you</h1>
+        <div class="btn">
+            <a href="#name"
+                class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                a Service</a>
+        </div>
+        <img src="img/Group 26.png" alt="" srcset="">
+    </section>
+    <section class="whoWeAre">
+        <H1>Welcome to <br><span>Preetifier hair</span> </H1>
+        <p>We are the number one beauty salon right in Houston texas focused on making every one looks stunning, without
+            time delay we have various service we offer thats aimed at bringing the beauty and elegant look in you our
+            salon is strictly for elegant and classy ladies if you are one lets meet you </p>
+        <div class="btn">
+            <a href="#name"
+                class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                a Service</a>
+        </div>
+    </section>
+    <section class="Gallery">
+        <h1>Our Gallery</h1>
+        <p>We are showcasing the beautiful woman in you aimed at giving you the best stunnng looks and making you our
+            spotlight because you a beautiful and classy </p>
+        <div class="btn">
+            <a href="#name"
+                class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                a Service</a>
+        </div>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="carousel-item">
+                    <img src="img/c1.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="img/c2.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="img/c3.png">
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class=" services">
+        <h1>Our services</h1>
+        <p>Wide range of services offereed just to make you that classy woman you desire check out our services and
+            curatd collections of hair that fits you</p>
+
+
+        <div class="carousel-wrapper">
+            <span id="item-1"></span>
+            <span id="item-2"></span>
+            <span id="item-3"></span>
+            <div class="carousel-item item-1">
+                <h2>Braiding</h2>
+                <div class="btn">
+                    <a href="#name"
+                        class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                        a Service</a>
+                </div>
+                <a class="arrow arrow-prev" href="#item-3"></a>
+                <a class="arrow arrow-next" href="#item-2"></a>
+            </div>
+
+            <div class="carousel-item item-2">
+                <h2>Weaving</h2>
+                <div class="btn">
+                    <a href="#name"
+                        class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                        a service</a>
+                </div>
+                <a class="arrow arrow-prev" href="#item-1"></a>
+                <a class="arrow arrow-next" href="#item-3"></a>
+            </div>
+
+            <div class="carousel-item item-3">
+                <h2>Twisting</h2>
+                <div class="btn">
+                    <a href="#name"
+                        class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                        a service</a>
+                </div>
+                <a class="arrow arrow-prev" href="#item-2"></a>
+                <a class="arrow arrow-next" href="#item-1"></a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Hear from some of our Clients</h2>
+        <div class="allTEt">
+            <div class="c1">
+                <div class="customer1">
+                    <img src="img/IMG_5290.jpg" alt="Img-Here" width="150">
+                </div>
+                <div class="cText">
+                    <h2>The best salon so far</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <div class="c1">
+                <div class="customer1">
+                    <img src="img/IMG_5276.jpg" alt="Img-Here" width="150">
+                </div>
+                <div  class="cText">
+                    <h2>Super Fast</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="allTEt">
+            <div class="c1">
+                <div class="customer1">
+                    <img src="img/IMG_5280.jpg" alt="Img-Here" width="150">
+                </div>
+                <div  class="cText">
+                    <h2>Quite Affordable</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <div class="c1">
+                <div class="customer1">
+                    <img src="img/IMG_5289.jpg" alt="Img-Here" width="150">
+                </div>
+                <div  class="cText">
+                    <h2>So friendly and Neat</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="booksession">
+        <h1>Book a session</h1>
+        <p>Wide range of services offereed just to make you that classy woman you desire check out our services and
+            curatd collections of hair that fits you</p>
+    </section>
+    <section class="form">
+        <form class="form1">
+            <div><input type="text" id="name" placeholder="Your Name" /></div>
+            <div>
+                <input type="email" id="email" placeholder="E-mail Address" />
+            </div>
+
+            <div>
+                <input type="number" id="number" placeholder="Phone Number" />
+            </div>
+
+            <div>
+                <textarea name="message" id="textmessage" placeholder="Drop a message"></textarea>
+            </div>
+        </form>
+        <div class="btn">
+            <a href="#"
+                class="inline-block text-sm px-4 py-4 leading-none bg-orange-900 rounded text-white border-white hover:border-transparent hover:text-orange-900 hover:bg-white mt-4 lg:mt-0">Book
+                a service</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
